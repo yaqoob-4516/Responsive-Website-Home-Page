@@ -1,0 +1,519 @@
+/* Back Ground Img and Navbar */
+.image {
+  background-image: url("./Imges/a.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+/* .layer {
+  background-color: rgba(248, 247, 216, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+/* Navbar Start */
+.navbar {
+  text-align: right;
+  padding: 10px;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 60px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  color: #ffcc00;
+}
+/* Navbar End */
+
+/* Heading Top Start*/
+.heading h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+  overflow: hidden;
+}
+
+.heading h6 {
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+}
+/* Heading Top End*/
+
+/* Contact via WhastApp design  Start*/
+.whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  background-color: #10ac49;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 50px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #128c7e;
+}
+
+.whatsapp-icon {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.WB {
+  text-align: center;
+  align-items: center;
+}
+/* Contact via WhastApp design  End*/
+
+/* Who We Are Start */
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.image2 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.image2 img {
+  max-width: 100%;
+  height: 65%;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: justify;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #113458;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/*Who We Are End */
+
+/* Our Business Strategy & Our Values Start */
+.container1 {
+  display: flex;
+  /* max-width: 1200px;
+  margin: 0 auto; */
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+  text-align: justify;
+  align-items: center;
+  background-color: #10ac49;
+  color: white;
+}
+
+.column1 {
+  flex: 1;
+  padding: 20px;
+  background-color: rgb(6, 6, 54);
+  color: #f0f0f0;
+  align-items: center;
+  text-align: justify;
+}
+
+.column p {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.column h2 {
+  margin-left: 60px;
+  margin-right: 60px;
+  text-align: center;
+}
+
+.column h3 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.column1 p {
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 50px;
+}
+
+.column1 h2 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+/* icon style  Start*/
+.icon {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+/* icon style  End*/
+/* Our Business Strategy & Our Values End */
+
+/* Meet The Team style Start */
+.main-heading {
+  text-align: center;
+  padding: 20px;
+  font-size: 28px;
+}
+
+/* CEO Circular Images and descriptions */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style each image card */
+.image-card {
+  text-align: center;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+/* Style the circular image */
+.circular-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circular-image img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Style the image description */
+.image-description {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+/* Meet The Team style End */
+
+/* Call Now Button Style Start */
+.call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.callnow {
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+/* Call Now Button Style End */
+
+/* Best VAT Consultation in Dubai & img Style  Start*/
+.container3 {
+  display: flex;
+  /* max-width: 1200px;
+  margin: 0 auto; */
+  margin-top: 20px;
+}
+
+.left-div1 {
+  flex: 1;
+}
+
+.left-div1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.right-div1 {
+  flex: 1.2;
+  padding: 20px;
+  background-color: #10ac49;
+  color: white;
+  height: auto;
+}
+
+.right-div1 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.right-div1 p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* Best VAT Consultation in Dubai & img Style  End*/
+
+/* Bookkeeping and Accounting Services & Img Style Start*/
+.container4 {
+  display: flex;
+  /* max-width: 1200px;
+  margin: 0 auto; */
+  margin-top: 20px;
+}
+
+.left-div2 {
+  flex: 1.2;
+  padding: 20px;
+  background-color: #113458;
+  color: white;
+}
+
+.left-div2 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.left-div2 p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.right-div2 {
+  flex: 1;
+}
+
+.right-div2 img {
+  width: 100%;
+  height: 100%;
+}
+/* Bookkeeping and Accounting Services & Img Style End*/
+
+/* Social Logo Style  Start*/
+.social-logos {
+  margin-top: 20px;
+  padding-top: 30px;
+  margin-bottom: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.social-logos a {
+  margin: 0 10px;
+}
+
+.social-logos img {
+  width: 32px;
+  height: 32px;
+}
+/* Social Logo Style  End*/
+
+/* Call logo style Start*/
+.call-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-logo img {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  margin-right: 10px;
+  color: #10ac49;
+}
+
+.call-logo p {
+  font-weight: bold;
+  font-size: 18px;
+  display: inline;
+  color: white;
+}
+
+.outer {
+  background-color: #113458;
+  align-items: center;
+}
+
+.green-text {
+  color: green;
+  font-size: 20px;
+}
+/* Call logo style End*/
+
+/* Footer Style Start */
+.footer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+/* Footer Style End */
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    text-align: center;
+  }
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .navbar ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .whatsapp-button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .whatsapp-icon {
+    width: 20px;
+    margin-right: 8px;
+  }
+
+  .container {
+    flex-direction: column;
+    text-align: justify;
+  }
+
+  .image2 {
+    order: 2;
+    padding: 0;
+  }
+
+  .content {
+    order: 1;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .column,
+  .column1 {
+    flex: 100%;
+    padding: 20px;
+    text-align: left;
+  }
+
+  .column h2,
+  .column1 h2 {
+    margin: 0;
+  }
+
+  .icon {
+    margin-right: 5px;
+  }
+
+  .image-card {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .call {
+    flex-direction: column;
+  }
+
+  .callnow {
+    margin-top: 10px;
+  }
+  .container3 {
+    flex-direction: column;
+  }
+
+  .left-div1,
+  .right-div1 {
+    flex: 100%;
+    margin-right: 0;
+    text-align: justify;
+  }
+
+  .container4 {
+    flex-direction: column;
+  }
+
+  .left-div2,
+  .right-div2 {
+    flex: 100%;
+    margin-top: 0;
+    text-align: justify;
+  }
+
+  .social-logos {
+    padding-top: 10px;
+  }
+
+  .social-logos a {
+    margin: 0 5px;
+  }
+
+  .social-logos img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .call-logo img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+  }
+
+  .call-logo p {
+    font-size: 16px;
+  }
+  .green-text {
+    font-size: 16px;
+  }
+}
